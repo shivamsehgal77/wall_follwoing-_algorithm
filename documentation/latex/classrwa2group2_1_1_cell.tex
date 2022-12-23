@@ -1,0 +1,104 @@
+\hypertarget{classrwa2group2_1_1_cell}{}\doxysection{rwa2group2\+::Cell Class Reference}
+\label{classrwa2group2_1_1_cell}\index{rwa2group2::Cell@{rwa2group2::Cell}}
+
+
+This class represents a cell in the maze.  
+
+
+
+
+{\ttfamily \#include $<$cps.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classrwa2group2_1_1_cell_adc38bfae96c9418c271cb4a3c903ff98}{init\+\_\+cell\+\_\+walls}} ()
+\begin{DoxyCompactList}\small\item\em Intialize all the four walls of the cells as false or no walls. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrwa2group2_1_1_cell_af1281553efa96ae5c9e8800aa4873e10}{set\+\_\+wall}} (std\+::pair$<$ int, int $>$ m\+\_\+position)
+\begin{DoxyCompactList}\small\item\em Set the all the four walls for the curent cell using is\+\_\+wall. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrwa2group2_1_1_cell_acb20efa9c6e14da836e612ae3cfa5d05}{is\+\_\+wall}} (char wall)
+\begin{DoxyCompactList}\small\item\em Checks if wall present and sets m\+\_\+walls to ture based on it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::array$<$ bool, 4 $>$ \mbox{\hyperlink{classrwa2group2_1_1_cell_a952d9f6fe238eaa9d3ae967e75061ed7}{m\+\_\+walls}}
+\begin{DoxyCompactList}\small\item\em The walls of the cell. true means the wall is open false means the wall is closed 0 = North, 1 = East, 2 = South, 3 = West. \end{DoxyCompactList}\item 
+std\+::array$<$ char, 4 $>$ \mbox{\hyperlink{classrwa2group2_1_1_cell_ae2f955ab228da62b0b4a86b8f2fd51b9}{directions}} \{\textquotesingle{}n\textquotesingle{}, \textquotesingle{}e\textquotesingle{}, \textquotesingle{}s\textquotesingle{}, \textquotesingle{}w\textquotesingle{}\}
+\begin{DoxyCompactList}\small\item\em Array of directions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a cell in the maze. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrwa2group2_1_1_cell_adc38bfae96c9418c271cb4a3c903ff98}\label{classrwa2group2_1_1_cell_adc38bfae96c9418c271cb4a3c903ff98}} 
+\index{rwa2group2::Cell@{rwa2group2::Cell}!init\_cell\_walls@{init\_cell\_walls}}
+\index{init\_cell\_walls@{init\_cell\_walls}!rwa2group2::Cell@{rwa2group2::Cell}}
+\doxysubsubsection{\texorpdfstring{init\_cell\_walls()}{init\_cell\_walls()}}
+{\footnotesize\ttfamily void rwa2group2\+::\+Cell\+::init\+\_\+cell\+\_\+walls (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Intialize all the four walls of the cells as false or no walls. 
+
+\mbox{\Hypertarget{classrwa2group2_1_1_cell_acb20efa9c6e14da836e612ae3cfa5d05}\label{classrwa2group2_1_1_cell_acb20efa9c6e14da836e612ae3cfa5d05}} 
+\index{rwa2group2::Cell@{rwa2group2::Cell}!is\_wall@{is\_wall}}
+\index{is\_wall@{is\_wall}!rwa2group2::Cell@{rwa2group2::Cell}}
+\doxysubsubsection{\texorpdfstring{is\_wall()}{is\_wall()}}
+{\footnotesize\ttfamily void rwa2group2\+::\+Cell\+::is\+\_\+wall (\begin{DoxyParamCaption}\item[{char}]{wall }\end{DoxyParamCaption})}
+
+
+
+Checks if wall present and sets m\+\_\+walls to ture based on it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wall} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrwa2group2_1_1_cell_af1281553efa96ae5c9e8800aa4873e10}\label{classrwa2group2_1_1_cell_af1281553efa96ae5c9e8800aa4873e10}} 
+\index{rwa2group2::Cell@{rwa2group2::Cell}!set\_wall@{set\_wall}}
+\index{set\_wall@{set\_wall}!rwa2group2::Cell@{rwa2group2::Cell}}
+\doxysubsubsection{\texorpdfstring{set\_wall()}{set\_wall()}}
+{\footnotesize\ttfamily void rwa2group2\+::\+Cell\+::set\+\_\+wall (\begin{DoxyParamCaption}\item[{std\+::pair$<$ int, int $>$}]{m\+\_\+position }\end{DoxyParamCaption})}
+
+
+
+Set the all the four walls for the curent cell using is\+\_\+wall. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+position} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classrwa2group2_1_1_cell_ae2f955ab228da62b0b4a86b8f2fd51b9}\label{classrwa2group2_1_1_cell_ae2f955ab228da62b0b4a86b8f2fd51b9}} 
+\index{rwa2group2::Cell@{rwa2group2::Cell}!directions@{directions}}
+\index{directions@{directions}!rwa2group2::Cell@{rwa2group2::Cell}}
+\doxysubsubsection{\texorpdfstring{directions}{directions}}
+{\footnotesize\ttfamily std\+::array$<$char,4$>$ rwa2group2\+::\+Cell\+::directions \{\textquotesingle{}n\textquotesingle{}, \textquotesingle{}e\textquotesingle{}, \textquotesingle{}s\textquotesingle{}, \textquotesingle{}w\textquotesingle{}\}}
+
+
+
+Array of directions. 
+
+\mbox{\Hypertarget{classrwa2group2_1_1_cell_a952d9f6fe238eaa9d3ae967e75061ed7}\label{classrwa2group2_1_1_cell_a952d9f6fe238eaa9d3ae967e75061ed7}} 
+\index{rwa2group2::Cell@{rwa2group2::Cell}!m\_walls@{m\_walls}}
+\index{m\_walls@{m\_walls}!rwa2group2::Cell@{rwa2group2::Cell}}
+\doxysubsubsection{\texorpdfstring{m\_walls}{m\_walls}}
+{\footnotesize\ttfamily std\+::array$<$bool, 4$>$ rwa2group2\+::\+Cell\+::m\+\_\+walls}
+
+
+
+The walls of the cell. true means the wall is open false means the wall is closed 0 = North, 1 = East, 2 = South, 3 = West. 
+
+$<$
+
+Array that stores the walls for the cell as true or false 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+application/\mbox{\hyperlink{cps_8h}{cps.\+h}}\item 
+application/cps.\+cpp\end{DoxyCompactItemize}

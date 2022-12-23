@@ -1,0 +1,33 @@
+
+------------------------------------------------------------------------
+Build the application
+------------------------------------------------------------------------
+
+
+******For right wall follow alogirthm**********************************
+g++ -std=c++17 -g main_right.cpp simulator/simulator.cpp cps.cpp -o main          		
+*****For left wall follow algorithm************************************
+g++ -std=c++17 -g main_left.cpp simulator/simulator.cpp cps.cpp -o main
+
+
+
+------------------------------------------------------------------------
+
+
+To switch between left-hand rule approach and right-hand rule approach
+
+# We have made two configration in the simulator
+
+## One for the left wall following algorithm -Config name- left_algo
+
+## One for the right wall following algorithm -Config name- right_algo
+
+
+
+
+------------------------------------------------------------------------
+Explain what to modify in your code to switch between the left-hand rule and the right-hand rule approaches
+
+## Select the left_algo configration in the simulator for left-hand rule
+
+## Select the right_algo configration in the simulator for right-hand rule
